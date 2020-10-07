@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+
+p{
+    background-color: lightblue;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-decoration: underline;
+}
+
+/* Selecting Child Elements */
+nav ul{
+    list-style: none;
+}
+/* Selecting child elements multiple levels */
+nav ul a{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+/* Selecting HTML element with class name */
+.orange-text {
+    background-color: darkslategray;
+    color: orange;
+    text-decoration: none;
+}
+
+/* using id tag to edit element */
+#tow {
+    background: orange;
+}
+
+.large-text {
+    font-size: 20px;
+}
+
+/* Child selector or Direct Child selector
+Selecting only the p directly inside the article
+*/
+article>p {
+    font-size: 24px;
+}
+/* Adjacent Sibling Selector */
+h3+ul{
+    border: 1px solid black;
+}
+/* Attribute Selector
+Selecting element that has attribute of hrerf set to value #tow
+*/
+[href="#tow"]{
+    font-weight: bold;
+}
+[target="_blank"]{
+    text-transform: uppercase;
+}
+
+/* Using Pseudo Classes
+Styling Navigation */
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    background: orange;
+    /* horizontal vertical blur spread colorr*/
+    box-shadow: -2px 2px 4px 2px black;
+}
+
+nav ul a:hover,
+nav ul a:focus{
+    text-decoration: underline;
+}
+nav ul a:active{
+    /* horizontal vertical blur spread color*/
+    box-shadow: 0 0 4px 2px black;
+}
+/* first child selector*/
+aside ul li:first-child{
+    font-weight: bold;
+}
+/*last child selector*/
+section ol li:last-child{
+    font-weight: bold;
+}
+
+/* collapse table border into one*/
+table{
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d5836c;
+}
