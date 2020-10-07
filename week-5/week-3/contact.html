@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html> 
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Reggie's Coffee Shop - Home</title>
+</head>
+
+<body>
+    <!-- Add the proper page structure for this document-->
+        <header>
+            <h1>Reggie's Coffee Shop</h1>
+            <nav>
+                <ul>
+                <li>
+                 <a href="index.html">Home</a>
+                 </li>
+                    <li>
+                      <a href="Contact.html">Contact</a>
+                        </li>
+            </nav>
+        </header>
+        <!-- main contact of the site-->
+        <main>
+            <h2>Contact Us</h2>
+            <section>
+                <table>
+                    <caption>Hours of Operation</caption>
+                    <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mon - Fri</td>
+                            <td>6 AM - 9 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sat</td>
+                            <td>8 AM - 11 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sun</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>We love to hear from you!</h3>
+                <!-- Adding a Form-->
+                <form action="thanks.html" method="post">
+                    <div>
+                    <label for="fullname">Your Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="John Doe" value="Mr.">
+                    </div>
+                    <div>
+                    <label for="youremail">Email</label>
+                    <input type="text" id="youremail" name="youremail" placeholder="hello@reggies.com" required>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div>
+                        <label for="tickets">How many tickets? (Sold in pairs)</label>
+                        <input type="number" name="tickets" id="tickets" min="2" max="10" step="2">
+                    </div>
+                    <div>
+                        <label for="row">Select Row</label>
+                        <select name="row" id="row">
+                        <option value="Front">Front</option>
+                        <option value="Center" selected>Center</option>
+                        <option value="Back">Back</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h3>Have you been here before?</h3>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id=yes name="past">
+                        <label for="no">No</label>
+                        <input type="radio" id=no name="past">
+                    </div>
+                    <div>
+                        <h3>Policies</h3>
+                        <input type="checkbox" name="Policies" id="Policies" required
+                        >
+                        <label for="Policies"> I agree with the Terms and Policies.</label>
+                    </div>
+
+                    <!-- Adding Button to Form Submit-->
+                    <button type="submit">Send Message!</button>
+                </form>
+
+            </section>
+        </main>
+                <footer>
+                    Copywrite &copy; Reggie&apos;s Coffee Shop, 2020
+                </footer>   
+            </body>
+</html>
