@@ -11,6 +11,10 @@ footer{
     background-color: darkslategray;
 }
 
+#site-title{
+    color: brown;
+}
+
 #my-image{
     box-shadow: black 2px 1px 1px;
 }
@@ -25,8 +29,18 @@ ul tr:nth-child(odd){
 
 #navigation{
     list-style-type: none;
-    text-decoration: none;
 }
+a:link {
+    text-decoration: none;
+    background-color: white;
+    border: thin black;
+  }
+
+  a:hover, a:focus{
+      background-color: orange;
+  }
+
+
 
 
 
