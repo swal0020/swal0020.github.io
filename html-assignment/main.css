@@ -15,7 +15,7 @@ footer{
     box-shadow: black 2px 1px 1px;
 }
 
-ul{
+#hobbies-list{
     list-style-type: square;
 }
 
@@ -23,6 +23,10 @@ ul tr:nth-child(odd){
     background: darkslategray;
 }
 
+#navigation{
+    list-style-type: none;
+    text-decoration: none;
+}
 
 
 
