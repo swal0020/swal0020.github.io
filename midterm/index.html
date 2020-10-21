@@ -58,30 +58,31 @@
         <h2>
             Contact to Learn More
         </h2>
-        <form>
-        <div>
-            <label for="fullname">Your Name</label>
-            <input type="text" id="fullname" name="fullname" placeholder="John Doe">
+        <form action="thanks.html" method="POST">
+            <div>
+                <label for="fullname">Your Name</label>
+                <input type="text" id="fullname" name="fullname">
             </div>
             <div>
-            <label for="youremail">Email</label>
-            <input type="text" id="youremail" name="youremail" placeholder="hello@starfish.com required>
+                <label for="youremail">Your Email</label>
+                <input type="text" id="youremail" name="youremail">
             </div>
-
+            <div>
+                <label for="message"> Your Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" wrap="hard"></textarea>
+            </div>
             <div>
                 <h3>Would you like to visit the starfish?</h3>
-                <label for="Yes">Yes</label>
-                <input type="radio" id=Yes name="past">
-                <label for="No">No</label>
-                <input type="radio" id=No name="past">
-                <label for="Maybe">Maybe</label>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="past">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="past">
+                <label for="maybe">Maybe</label>
                 <input type="radio" id="maybe" name="past">
             </div>
-            <button type="submit">Send!</button>
         </form>
     </section>
 </body>
 <!-- Creating Footer Tag-->
-<footer>
-    &copy; Lone Starfish,
-</footer>
+<footer> &copy; Lone Starfish,</footer>
+</html>
