@@ -6,30 +6,38 @@ body{
 
 header{
     background-image: url(../images/lone-starfish-wide.jpg);
-    height: 100%;
-    margin: 0;
-    background-position: center;
+    background-size: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 150px; 
+    padding-right: 150px;
     background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
-    color: white
+    color: white;
+    font-size: x-large;
 }
 
 #menu{
 color: black;
 font-weight: bold;
-display: inline;
-background-color: orange;
-
+display: inline-block;
+background-color:white;
+width: 100%;
 }
 
 #menu2 li{
     list-style-type: none;
-    background-color: orange;
-    display: inline;
-    line-height: 2px;
+    display: inline-block;
+    line-height: auto;
+    font-size: xx-large;
+    width: 32%;
+    text-align: center;
+    border-right: 2px solid;
+    
 }
-
+nav ul li:last-child{
+  border-right: none;
+}
 /* Editing Body */
 
 p{
