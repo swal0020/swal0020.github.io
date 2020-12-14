@@ -1,0 +1,33 @@
+.container {
+    width: 1200px;
+    height: max-content;
+    position: relative;
+    background-color:#ffe6ac ;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero > div {
+    width: 50%;
+  }
+  .text {
+  /*  Margin to place the text div  */
+    margin-left: 50%;
+  }
+  .john-image {
+  /*  Positions the hero image where you want it   */
+    position: absolute;
+    left: 0;
+    width: 600px;
+    height: 100%;
+    /* margin-left: calc((100vw - 1200px) * -1); */
+    background:url("../images/john.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+  }
