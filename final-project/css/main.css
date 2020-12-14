@@ -26,20 +26,20 @@ body{
     color: #000;
 }
 
-li{
-    color: darkslategray;
-    list-style: none;
-    text-decoration: none;
-    display: inline;
-    text-align: center;
-    padding: 16px; 
-}
+        li{
+            color: darkslategray;
+            list-style: none;
+            text-decoration: none;
+            display: inline;
+            text-align: center;
+            padding: 16px; 
+        }
 /* Creating Containers for CEO and CFO and adding Margins for text movement */
 .container {
     width: 1200px;
     height: 400px;
     position: relative;
-    background-color:#ffe6ac ;
+    background-color: #ffe6ac ;
   }
   
   .incontainer {
@@ -97,8 +97,58 @@ line-height: 1.5;
   }
 
   .asubtitle, .bsubtitle {
-      font-size: larger;
-      font-weight: bold;
-      text-align: left;
-      padding-left: 10px;
+          font-size: larger;
+          font-weight: bold;
+            text-align: left;
+         padding-left: 10px;
+  }
+
+  .teamheader{
+      font-size: xx-large;
+      font-weight: bolder;
+      padding-bottom: 10px;
+      padding-top: 20px;
+  }
+
+  #vision{
+background-image: url(../images/vision.jpg) ;
+width: 1200px;
+background-size: 1200px 1000px;
+background-position: center;
+background-repeat: no-repeat;
+overflow-wrap: break-word;
+max-width: 1500px;
+  }
+
+  .visiontext, .visiontitle{
+      color: white;
+      display: flex;
+      padding: 10px 10px 10px 20px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+  }
+
+  .visiontext, .visiontitle, .visionbutton{
+      padding-top: 20px;
+      }
+
+.visiontext{
+    justify-content: center;
+}
+
+  .visiontitle{
+      font-size: xx-large;
+      font-weight: bolder;
+  }
+
+
+  .visionbutton{
+background-color: #051f38;
+padding: 10px 10px 10px 10px;
+width: 250px;
+height: 100px;
+font-size: x-large;
+color: white;
+border:orange 1px;
+border-style: solid;
   }
