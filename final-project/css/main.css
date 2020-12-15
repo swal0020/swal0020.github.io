@@ -178,6 +178,7 @@ border-style: solid;
   .messagehead, .maphead, .hourshead{
     font-size: xx-large;
     font-weight: bold;
+    color: black;
   }
 
   .contacthead{
@@ -274,6 +275,7 @@ h1{
     height: 100px;
     font-size: x-large;
     color: black;
+    margin-top: 5% ;
   }
 
   .about-text{
@@ -297,32 +299,44 @@ h1{
   }
 
 .print, .web, .video, .marketing, .digital{
-  background-color: pink;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 10px;
-  grid-auto-rows: 100px;
-  grid-template-areas:
-  "a a a a b b b b"
-  "a a a a b b b b"
-  "c c c c d d d d"
-  "c c c c d d d d";
-  align-items: start;
+display: grid;
+grid-template-areas: "A A A B B B"
+"C C D D E E"
+  
 }
 
-.print{
-  grid-area: a;
-}
-.web{
-  grid-area: b;
-}
-
-.video{
-  grid-area: c;
+.digital{
+  grid-area: A;
+display: block;
+  background-color: black;
+  color: white;
 }
 
 .marketing{
-  grid-area: d;
+  grid-area: B;
+  display: block;
+  background-color: black;
+  color: white;
+}
+.video{
+  grid-area: C;
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+.web{
+  grid-area: D;
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+.print{
+  grid-area: E;
+  display: block;
+  background-color: black;
+  color: white;
 }
 
 .digitalbutton, .marketingbutton, .videobutton, .webbutton, .printbutton{
@@ -332,4 +346,12 @@ h1{
   height: 100px;
   font-size: x-large;
   color: white;
+}
+.messagehead{
+  color: black
+
+}
+
+h2, h3{
+  color: black;
 }
