@@ -27,6 +27,10 @@ a:visited {color: orange;}
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
+    height: 100%;
+}
+html{
+  height: 100%;
 }
 
         li{
@@ -165,3 +169,167 @@ border-style: solid;
       text-decoration: none;
   }
   
+  .message-send{
+    background-color: black;
+    color: orange;
+    font-size: medium;
+  }
+  
+  .messagehead, .maphead, .hourshead{
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .contacthead{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  input, label{
+    display: block;
+  padding: 10px 10px 10px;
+  width: 50%;
+  }
+  
+  textarea{
+    resize: none;
+    width: 50%;
+  }
+
+  table, td{
+    border-collapse: separate;
+    border: 1px solid black;
+  }
+
+  table{
+    width: 90%;
+    border-collapse: collapse;
+    column-rule: black;
+  }
+
+  td, tr{
+    justify-content: left;
+    padding-left: 10px;
+    padding: 10px 10px 10px 10px;
+  }
+
+.headrow{
+  background-color: #ffe6ac;
+}
+
+.form{
+width: 50%;
+float: left;
+}
+
+.map{
+  margin-left: 50%;
+  width: 50%;
+}
+
+header{
+  background-color: #222222;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  padding: 30px 10%;
+}
+.searchbar{
+  width: 10%;
+}
+
+.title{
+  background-image: url(../images/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+
+h1{
+  font-size: 72px;
+  color: white;
+}
+
+#banner{
+  background-image: url(../images/main-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-wrap: break-word;
+}
+
+.bannertitle, .bannertext{
+  background-color:rgb(0, 0, 0, 0.4);
+  color: white;
+}
+
+  .bannerbutton{
+    background-color: #c78b07;
+    padding: 10px 10px 10px 10px;
+    width: 250px;
+    height: 100px;
+    font-size: x-large;
+    color: black;
+  }
+
+  .about-text{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 50%;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .about-image{
+    position:absolute;
+    left: 0;
+    width: 600px;
+    height: 100%;
+    background: url(../images/about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+
+.print, .web, .video, .marketing, .digital{
+  background-color: pink;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+  "a a a a b b b b"
+  "a a a a b b b b"
+  "c c c c d d d d"
+  "c c c c d d d d";
+  align-items: start;
+}
+
+.print{
+  grid-area: a;
+}
+.web{
+  grid-area: b;
+}
+
+.video{
+  grid-area: c;
+}
+
+.marketing{
+  grid-area: d;
+}
+
+.digitalbutton, .marketingbutton, .videobutton, .webbutton, .printbutton{
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  width: 250px;
+  height: 100px;
+  font-size: x-large;
+  color: white;
+}
