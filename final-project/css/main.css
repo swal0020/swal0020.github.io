@@ -22,10 +22,15 @@ time, mark, audio, video {
 
 /* Creating Main CSS */
 
+@media screen and (max-width: 760px){
+  body{
+    font-size: 1.25rem;
+  }
+}
+
 a:visited {color: orange;}
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     color: #000;
     height: 100%;
 }
@@ -89,10 +94,10 @@ html{
   }
 
   .b-text {
-padding-top: 10px;
-padding-left: 10px;
-text-align: left;
-line-height: 1.5;
+      padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 1.5;
   }
 
   .btitle, .atitle {
@@ -106,7 +111,7 @@ line-height: 1.5;
   .asubtitle, .bsubtitle {
           font-size: larger;
           font-weight: bold;
-            text-align: left;
+          text-align: left;
          padding-left: 10px;
   }
 
@@ -117,14 +122,15 @@ line-height: 1.5;
       padding-top: 20px;
   }
 
+  /* Adding Main CSS for 'Our Vision' section */
   #vision{
-background-image: url(../images/vision.jpg) ;
-width: 1200px;
-background-size: 1200px 1000px;
-background-position: center;
-background-repeat: no-repeat;
-overflow-wrap: break-word;
-max-width: 1500px;
+    background-image: url(../images/vision.jpg) ;
+    width: 1200px;
+    background-size: 1200px 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-wrap: break-word;
+    max-width: 1500px;
   }
 
   .visiontext, .visiontitle{
@@ -150,16 +156,17 @@ max-width: 1500px;
 
 
   .visionbutton{
-background-color: #051f38;
-padding: 10px 10px 10px 10px;
-width: 250px;
-height: 100px;
-font-size: x-large;
-color: white;
-border:orange 1px;
-border-style: solid;
+    background-color: #051f38;
+    padding: 10px 10px 10px 10px;
+    width: 250px;
+    height: 100px;
+    font-size: x-large;
+    color: white;
+    border:orange 1px;
+    border-style: solid;
   }
 
+  /* Adding main CSS for footer*/
   .site-footer{
       background-color: black;
       color: orange;
@@ -169,6 +176,7 @@ border-style: solid;
       text-decoration: none;
   }
   
+  /*Creating Main CSS for Contact Section*/
   .message-send{
     background-color: black;
     color: orange;
@@ -190,8 +198,8 @@ border-style: solid;
 
   input, label{
     display: block;
-  padding: 10px 10px 10px;
-  width: 50%;
+    padding: 10px 10px 10px;
+    width: 50%;
   }
   
   textarea{
@@ -215,21 +223,21 @@ border-style: solid;
     padding-left: 10px;
     padding: 10px 10px 10px 10px;
   }
-
+/*Making the changes to table*/
 .headrow{
   background-color: #ffe6ac;
 }
 
 .form{
-width: 50%;
-float: left;
+  width: 50%;
+  float: left;
 }
 
 .map{
   margin-left: 50%;
   width: 50%;
 }
-
+  /* Creating Main Header*/
 header{
   background-color: #222222;
   display: flex;
@@ -255,6 +263,7 @@ h1{
   color: white;
 }
 
+/* Adding banner settings*/
 #banner{
   background-image: url(../images/main-banner.jpg);
   background-size: cover;
@@ -266,6 +275,7 @@ h1{
 .bannertitle, .bannertext{
   background-color:rgb(0, 0, 0, 0.4);
   color: white;
+  overflow-wrap: break-word;
 }
 
   .bannerbutton{
@@ -298,10 +308,11 @@ h1{
    margin-bottom: 20px;
   }
 
+  /* Creating Grid CSS*/
 #main-content{
-display: grid; 
-grid-template-columns: 1fr 1fr 1fr;
-background-color: pink;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: pink;
 }
 
 .digital{
