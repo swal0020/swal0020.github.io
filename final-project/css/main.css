@@ -312,11 +312,7 @@ h1{
 #main-content{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: pink;
-}
-
-.digital{
-  background-color: pink;
+  background-color: black;
 }
 
 
