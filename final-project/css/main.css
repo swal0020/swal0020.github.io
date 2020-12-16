@@ -308,7 +308,7 @@ h1{
    margin-bottom: 20px;
   }
 
-  /* Creating Grid CSS*/
+  /* Creating Grid CSS */
 #main-content{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
