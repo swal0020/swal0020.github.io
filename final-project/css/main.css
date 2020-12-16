@@ -298,46 +298,16 @@ h1{
    margin-bottom: 20px;
   }
 
-.print, .web, .video, .marketing, .digital{
-display: grid;
-grid-template-areas: "A A A B B B"
-"C C D D E E"
-  
+#main-content{
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr;
+background-color: pink;
 }
 
 .digital{
-  grid-area: A;
-display: block;
-  background-color: black;
-  color: white;
+  background-color: pink;
 }
 
-.marketing{
-  grid-area: B;
-  display: block;
-  background-color: black;
-  color: white;
-}
-.video{
-  grid-area: C;
-  display: block;
-  background-color: black;
-  color: white;
-}
-
-.web{
-  grid-area: D;
-  display: block;
-  background-color: black;
-  color: white;
-}
-
-.print{
-  grid-area: E;
-  display: block;
-  background-color: black;
-  color: white;
-}
 
 .digitalbutton, .marketingbutton, .videobutton, .webbutton, .printbutton{
   background-color: black;
