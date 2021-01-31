@@ -1,0 +1,61 @@
+#home, #about, #contact, #nav{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.nav .nav-link{
+    color:black;
+    padding: 10px 0;
+}
+
+p{
+    color: black;
+}
+
+#about h2{
+    color: black;
+}
+
+#home p{
+    text-align: left
+}
+
+#home h1{
+    text-align: left
+}
+
+body{
+    background-color: #F7D1CD;
+}
+
+#nav.nav{
+    background-color: #E8C2CA ;
+    border-color: black;
+}
+
+#home.home{
+    background-color: #D1B3C4;
+    border-color: black;
+}
+
+#about.about{
+    background-color: #B392AC;
+}
+
+#contact.contact{
+    background-color: #735D78;
+    text-align: center;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact form{
+    background-color: #735D78;
+    padding-top: 10px;
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    color: black;
+}
