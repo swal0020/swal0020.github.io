@@ -1,3 +1,9 @@
-.container{
- border: 1px;
+body, footer{
+    font-family: 
+}
+
+
+footer{
+    background-color: #fffd8c;
+
 }
