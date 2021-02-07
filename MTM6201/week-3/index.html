@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- For the header, I made sure to include the width device and inital scale in order to make sure that the html stayed responsive between different screens and browser sizes-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +8,45 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <img src="../week-3/images/logo/logo.png" alt="Dash Logo">
+<!-- For all the photos throughout the HTML, I went with making max-width 100% to let the images scale down if needbe, but to never grow past their initial size for responsiveness-->
+    <img src="../week-3/images/logo/logo.png" style="max-width: 100%;" alt="Dash Logo">
 
  <h1>Want to be Your Own Boss?</h1>
  <h3>Start today and make up to $30/hr driving your own vehicle with Dash!</h3>
-
+<!-- Making the container here proved itself to be slightly more difficult then I expected with using a lot of different elements such as buttons, different inputs and using the 'a' tag for the status link-->
  <div class="container">
-
- <form action="thankyou.html"></form>
- <h2>Apply Now</h2>
- <h3>Enter your info below to get started</h3>
-    <label for="FName"></label>
-    <input type="text" id="Fname" name="Firstname" placeholder="First Name">
-    <label for="LName"></label>
-    <input type="text" id="LName" name="Lastname" placeholder="Last Name">
-    <label for="Email"></label>
-    <input type="text" id="Email" name="EmailAddress" placeholder="Email Address">
-    <label for="Number"></label>
-    <input type="text" id="Number" name="PhoneNumber" placeholder="Phone Number">
-    <label for="Terms">I Agree to Dash Terms</label>
-    <input type="checkbox">
-    <button class="Drive">Drive With Us</button>
-    <p>Already applied? <a>Check your application status here.</a></p>
+    <form action="thankyou.html"></form>
+        <h2>Apply Now</h2>
+        <h3>Enter your info below to get started</h3>
+         <label for="FName"></label>
+         <input type="text" id="Fname" name="Firstname" placeholder="First Name">
+          <label for="LName"></label>
+          <input type="text" id="LName" name="Lastname" placeholder="Last Name">
+          <label for="Email"></label>
+          <input type="text" id="Email" name="EmailAddress" placeholder="Email Address">
+          <label for="Number"></label>
+          <input type="text" id="Number" name="PhoneNumber" placeholder="Phone Number">
+          <label for="Terms">I Agree to Dash Terms</label>
+          <input type="checkbox">
+          <button style="width: 90%; height:auto" class="drive">Drive With Us</button>
+          <p>Already applied? <a>Check your application status here.</a></p>
 </div>
-
+<!-- Creating the footer, I needed to make sure that the logos all went in the right direction, as well as making sure that the placeholders were all in order. -->
     <footer>
-        <div class="bottomcontainer"></div>
+        <div class="bottomcontainer">
         <form action="thankyou.html"></form>
-        <h3>See how much you can earn with Dash</h3>
-        <h3>How many hours do you want to drive with us this week? </h3>
-        <label for="Hours">Hours</label>
-        <input type="text" id="Hours" name="Hours" placeholder="Hours">
-        <label for="City">City</label>
-        <input type="text" id="City" name="City" placeholder="City">
-        <button class="Calculate">Calculate</button>
-
-            <img src="../week-3/images/icons/instagram.svg" alt="Instagram Logo">
-            <img src="../week-3/images/icons/twitter.svg" alt="Twitter Logo">
-            <img src="../week-3/images/icons/facebook.svg" alt="Facebook Logo">
-            <img src="../week-3/images/icons/linkedin.svg" alt="LinkedIn Logo">
+             <h3>See how much you can earn with Dash</h3>
+            <h3>How many hours do you want to drive with us this week? </h3>
+                 <label for="Hours">Hours</label>
+                 <input type="text" id="Hours" name="Hours" placeholder="Hours">
+                 <label for="City">City</label>
+                 <input type="text" id="City" name="City" placeholder="City">
+                 <button class="Calculate">Calculate</button>
+                     <img src="../week-3/images/icons/instagram.svg" style="max-width: 100%;" alt="Instagram Logo">
+                     <img src="../week-3/images/icons/twitter.svg" style="max-width: 100%;" alt="Twitter Logo">
+                     <img src="../week-3/images/icons/facebook.svg" style="max-width: 100%;" alt="Facebook Logo">
+                     <img src="../week-3/images/icons/linkedin.svg" style="max-width: 100%;" alt="LinkedIn Logo">
+        </div>
     </footer>
 </body>
 </html>
