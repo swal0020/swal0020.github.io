@@ -1,9 +1,21 @@
 body, footer{
-    font-family: 
+    font-family: Arial, Helvetica, sans-serif
 }
 
+.container{
+    display: flex;
+flex-direction: column;
+width: 300px;
+border-style: solid;
+border-width: 3px;
+border-color: red;
+}
 
 footer{
     background-color: #fffd8c;
 
+}
+
+a{
+    color: orange;
 }
