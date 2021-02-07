@@ -2,6 +2,9 @@ body, footer{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-image: url(../week-3/scooter.svg);
+}
 .container{
 display: flex;
 flex-direction: column;
