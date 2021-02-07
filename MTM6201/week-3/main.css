@@ -4,6 +4,8 @@ body, footer{
 
 body{
     background-image: url(../week-3/scooter.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 .container{
 display: flex;
