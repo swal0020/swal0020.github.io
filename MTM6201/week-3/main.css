@@ -11,12 +11,14 @@ flex-direction: column;
 width: 300px;
 border-style: solid;
 border-width: 3px;
-border-color: red;
+border-color: pink;
 float: right;
 }
 
+
 .drive{
 background-color: #57eeab;
+align-self: center;
 }
 
 
