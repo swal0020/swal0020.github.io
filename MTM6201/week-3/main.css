@@ -4,7 +4,7 @@ body, footer{
 }
 
 .container{
-    display: flex;
+display: flex;
 flex-direction: column;
 width: 300px;
 border-style: solid;
@@ -12,6 +12,13 @@ border-width: 3px;
 border-color: red;
 float: right;
 }
+
+.logo{
+    width: 25%;
+    height: auto;
+}
+
+
 
 .drive{
 background-color: #57eeab;
