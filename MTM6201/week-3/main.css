@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../week-3/scooter.svg);
+    background-image: url(../week-3/images/bg-image/scooter.svg);
 }
 .container{
 display: flex;
@@ -29,8 +29,10 @@ footer{
     background-color: #fffd8c;
     position: absolute;
     bottom: 0;
-    width: 100%;   
-    height: 2.5rem;
+    width: 100%;
+    padding-left: 10px; 
+    flex-shrink: 0;
+
 }
 
 a{
