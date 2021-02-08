@@ -36,3 +36,9 @@ footer{
 a{
     color: orange;
 }
+
+.icons{
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+}
