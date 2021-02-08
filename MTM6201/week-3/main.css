@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../week-3/images/bg-image/scooter.svg);
+    background-image: url(../week-3/images/bg-image/scooter.jpg);
 }
 .container{
 display: flex;
@@ -11,7 +11,6 @@ flex-direction: column;
 width: 300px;
 border-style: solid;
 border-width: 3px;
-border-color: red;
 float: right;
 }
 
