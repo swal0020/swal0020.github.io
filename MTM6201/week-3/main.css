@@ -1,43 +1,92 @@
-*{
+ #logo{
+    width: 25%;
+    height: auto;
+    margin-left: 40px;
+ }
+
+ .main-content{
+    background-image: url(../week-3/images/bg-image/scooter.svg);
+    width: 80%;
+    height: auto;
+ }
+
+ h1{
+     font-size: 55px;
+     font-family: 'Montserrat', sans-serif;
+     color: rgb(49, 49, 47);
+     margin-left: 40px;
+ }
+
+ h3{
+     font-family: 'Montserrat', sans-serif;
+     color: rgb(49, 49, 47);
+     margin-left: 40px;
+     font-size: 25px;
+     font-weight: lighter;
+ }
+
+ h2{
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-}
+    color: rgb(49, 49, 47);
+ }
 
-body{
-    background-image: url(../week-3/images/bg-image/scooter.jpg);
-}
-.container{
-display: flex;
-flex-direction: column;
-width: 300px;
-border-style: solid;
-border-width: 3px;
-float: right;
-}
+ p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(49, 49, 47);
+ }
 
-h1{
-    font-size: 72px;
-}
+ .form{
+     background-color: pink;
+     border-radius: 20px;
+     box-shadow: 2px 2px 10px grey;
+     text-align: center;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
 
-.drive{
-background-color: #57eeab;
-align-self: center;
-}
+ input{
+     border-radius: 5px;
+     border-color: pink;
+     width: 80%;
+     height: 25px;
+ }
+
+ #Number{
+     margin-left: 27.5px;
+ }
+
+ .drive{
+    background-color: #57eeab;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(49, 49, 47);
+    border-radius: 5px;
+    border-color: #57eeab;
+    padding: 10px;
+ }
+
+ .apply{
+     margin-right: 50px;
+     margin-left: 50px;
+ }
+
+ #Fname, #LName, #Email, #Number{
+     background-color: rgba(128, 128, 128, 0.212);
+ }
+
+ footer{
+     background-color: #fffd8c;
+ }
 
 
-footer{
-    background-color: #fffd8c;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 
-}
 
-a{
-    color: orange;
-}
 
-.icons{
-    display: flex;
-    float: right;
-    justify-content: space-evenly;
-}
+
+
+ .ninja:active{
+     transform:translate(0,100px)
+ }

@@ -7,17 +7,22 @@
     <title>Dash</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
 <!-- For all the photos throughout the HTML, I went with making max-width 100% to let the images scale down if needbe, but to never grow past their initial size for responsiveness-->
-    <img id="logo" src="../week-3/logo.png" style="max-width: 100%;" alt="Dash Logo">
-
- <h1>Want to be <br> Your Own <br> Boss?</h1>
- <h3>Start today and make up to $30/hr driving <br> your own vehicle with Dash!</h3>
+<header>
+    <img id="logo" src="images/logo/logo.png" style="max-width: 100%;" alt="Dash Logo">
+</header>
+<div class="main-content">
+<div class="text-content">
+<h1>Want to be <br> Your Own <br> Boss?</h1>
+<h3>Start today and make up to $30/hr driving your own vehicle with Dash!</h3>
+</div>
 <!-- Making the container here proved itself to be slightly more difficult then I expected with using a lot of different elements such as buttons, different inputs and using the 'a' tag for the status link-->
- <div class="container">
+ <div class="form">
     <form action="thankyou.html"></form>
         <h2>Apply Now</h2>
-        <h3>Enter your info below to get started</h3>
+        <p>Enter your info below to get started</p>
          <label for="FName"></label>
          <input type="text" id="Fname" name="Firstname" placeholder="First Name">
           <label for="LName"></label>
@@ -28,8 +33,9 @@
           <input type="text" id="Number" name="PhoneNumber" placeholder="Phone Number">
           <label for="Terms">I Agree to Dash Terms</label>
           <input type="checkbox">
-          <button style="width: 80%; height:auto" class="drive">Drive With Us</button>
-          <p>Already applied? <a>Check your application status here.</a></p>
+          <button style="width: 80%; height:auto" class="drive">DRIVE WITH US</button>
+          <p class="apply">Already applied? <a>Check your application status here.</a></p>
+</div>
 </div>
 <!-- Creating the footer, I needed to make sure that the logos all went in the right direction, as well as making sure that the placeholders were all in order. -->
     <footer>
@@ -43,10 +49,10 @@
                  <input type="text" id="City" name="City" placeholder="City">
                  <button class="Calculate">Calculate</button>
                 <div class="icons">
-                     <img src="../week-3/images/icons/instagram.svg" style="max-width: 100%;" alt="Instagram Logo">
-                     <img src="../week-3/images/icons/twitter.svg" style="max-width: 100%;" alt="Twitter Logo">
-                     <img src="../week-3/images/icons/facebook.svg" style="max-width: 100%;" alt="Facebook Logo">
-                     <img src="../week-3/images/icons/linkedin.svg" style="max-width: 100%;" alt="LinkedIn Logo">
+                     <img src="images/icons/instagram.svg" style="max-width: 100%;" alt="Instagram Logo">
+                     <img src="images/icons/twitter.svg" style="max-width: 100%;" alt="Twitter Logo">
+                     <img src="images/icons/facebook.svg" style="max-width: 100%;" alt="Facebook Logo">
+                     <img src="images/icons/linkedin.svg" style="max-width: 100%;" alt="LinkedIn Logo">
                 </div>
         </div>
     </footer>
