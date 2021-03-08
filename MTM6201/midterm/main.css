@@ -8,3 +8,14 @@ font-weight: bolder;
     border-color: #26a682;
     padding: 5px;
  }
+
+#logo{
+    width: 5%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.sponsers{
+    width: 5%;
+    height: auto;
+}
