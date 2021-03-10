@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Document</title>
 </head>
 <header>
-    <img src="mtm6201-midterm-master-files/images/logo.svg" id="logo"></picture>
+    <img class="logo" src="mtm6201-midterm-master-files/images/logo.svg" alt="ARC Logo" style="width: 5%">
     <nav>
         <div class="home-menu">  
             <ul>
@@ -26,50 +27,66 @@
             </Ul>
             </div>
     </nav>
+
 </header>
 <body>
-    <section>
+    <div class="title-contact">
+    <section class="title">
     <h1>
         We Want to Hear From You
     </h1>
     <p>
         If you have an idea for an activity that you think you and your fellow students would love to participate in that we are not already offering, we want to know about it!
     </p>
+
+    <img src="mtm6201-midterm-master-files/images/contact-img.svg" alt="Contact Image" style="width: 60%;">
+    </section>
+    <section>
     <div class="form">
         <form action="thankyou.html"></form>
-            <h2>Apply Now</h2>
-            <p>Enter your info below to get started</p>
+            <h1 class="contact-us">Contact Us.</h1>
              <label for="FName">Full Name</label>
              <input type="text" id="Fname" name="Firstname" placeholder="Full Name">
               <label for="Number">Student Number</label>
-              <input type="text" id="LName" name="Lastname" placeholder="Student Number">
+              <input type="text" id="Number" name="Number" placeholder="Student Number">
               <label for="Email">Email</label>
               <input type="text" id="Email" name="EmailAddress" placeholder="Email Address">
-              <label for="message">Message</label> <textarea name="Message" id="message-form" cols="30" rows="10"></textarea>
+              <label for="message">Message</label> <textarea name="Message" id="message-form" style="width: auto; height: 100px;" placeholder="Message"></textarea>
 
-              <button style="width: 80%; height:auto" class="drive">DRIVE WITH US</button>
+              <button id="submit">Submit</button>
+    </div>
     </div>
     </section>
 
     <section>
+        <div class="location">
+            <div class="location-text">
         <h1>
             Our Location.
         </h1>
         <h2>
             Algonquin College Students' Association
         </h2>
-        <p>
+        <p class="address">
             Monday to Friday – 8:30am to 6:00pm
+            <br>
             1385 Woodroffe Avenue (E114)
+            <br>
             Ottawa, Ontario
+            <br>
             K2G 1V8
+            <br>
             (613) 727-4723 x7711
         </p>
+    </div>
+    <div class="location-map">
         <section class="map">
             <h2 class="maphead">Location</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44862.11152446958!2d-75.79068162089844!3d45.3511948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718c5998a3b%3A0x78382f39c3e19269!2sAlgonquin%20College%20Residence!5e0!3m2!1sen!2sca!4v1606768854446!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </section>
+    </div>
     </section>
+</div>
 </body>
 
 <footer>
@@ -78,11 +95,11 @@
     </h2>
 
     
-<div>
-    <img src="../midterm/mtm6201-midterm-master-files/icons/facebook.svg" alt="Facebook Logo">
-    <img src="../midterm/mtm6201-midterm-master-files/icons/instagram.svg" alt="Instagram Logo">
-    <img src="../midterm/mtm6201-midterm-master-files/icons/twitter.svg" alt="Twitter Logo">
-    <img src="../midterm/mtm6201-midterm-master-files/icons/youtube.svg" alt="Youtube Logo">
+<div class="social-icons">
+    <img src="mtm6201-midterm-master-files/icons/facebook.svg" alt="Facebook Logo">
+    <img src="mtm6201-midterm-master-files/icons/instagram.svg" alt="Instagram Logo">
+    <img src="mtm6201-midterm-master-files/icons/twitter.svg" alt="Twitter Logo">
+    <img src="mtm6201-midterm-master-files/icons/youtube.svg" alt="Youtube Logo">
 </div>    
 
 </footer>
