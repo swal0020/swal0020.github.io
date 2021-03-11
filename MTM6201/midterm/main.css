@@ -39,3 +39,14 @@ nav{
     width: 5%;
     height: auto;
 }
+
+.social-icons{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
