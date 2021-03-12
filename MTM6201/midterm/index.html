@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+<script src="https://kit.fontawesome.com/2d9d105791.js" crossorigin="anonymous"></script>
 <title>ARC</title>
 </head>
-<header>
+<header id="home-header">
     <img class="logo" src="mtm6201-midterm-master-files/images/logo.svg" alt="ARC Logo" style="width: 5%">
     <nav>
         <div class="home-menu">  
@@ -31,30 +33,46 @@
 
 </header>
 <body>
+    <section class="discover-arc">
+        <div id="discover-text">
     <h1>
         Discover Your ARC.
     </h1>
     <p>
         With Algonquin College's newest facility, there's always something for everyone to discover and enjoy.
     </p>
-    
+    <br>
+    <div id="activity-list">
     <ul>
         <ol>
-            <a href="#"> Bowling </a>
+            <i class="fas fa-bowling-ball"></i>
+            <a href="about.html#Bowling" style="color: green;"> Bowling </a>
         </ol>
         <ol>
-            <a href="#"> Rock Climbing </a>
+            <i class="fas fa-hiking"></i>
+            <a href="about.html#Climbing" style="color: green;"> Rock Climbing </a>
         </ol>
         <ol>
-            <a href="#"> Fitness Center </a>
+            <i class="fas fa-dumbbell"></i>
+            <a href="about.html#Fitness" style="color: green;"> Fitness Center </a>
         </ol>
         <ol>
-            <a href="#"> Indoor Court </a>
+            <i class="fas fa-basketball-ball"></i>
+            <a href="about.html#Fitness" style="color: green;"> Indoor Court </a>
         </ol>
-    </ul>
-    <button style="width: 20%;" class="get-started">Get Started</button>
-    
+    </ul>  
+</div>
+        </div>
+    <button style="width: 25%;" class="get-started">Get Started</button>
+<div class="discover-img">
+    <img src="mtm6201-midterm-master-files/images/discover.svg" alt="Discovery Image" style="width: 70%;">
+</div>
+</section>
 <section class="discover-algonquin">
+    <div class="algonquin-img">
+        <img src="mtm6201-midterm-master-files/images/school.jpg" alt="Discover Image" width="50%">
+    </div>
+    <div class="algonquin-text">
     <h1>
         Discover.
     </h1>
@@ -64,20 +82,32 @@
     <p>
         of Applied Arts and Technology is a publicly funded English-language college located in Ottawa, Ontario, Canada. The college serves the National Capital Region and the outlying areas of Eastern Ontario, Western Quebec, and Upstate New York.
     </p>
-    
     <button class="learn-more">Learn More</button>
+</div>
+    
 </section>
 
 <section class="quote">
+    <div class="quote-image">
+    <img src="mtm6201-midterm-master-files/images/simon.jpg" alt="Picture of Dihanelle Simon" width="25%">
+</div>
+<div class="quote-name">
     <p>
         Dijanelle Simon <br> SA President
     </p>
+</div>
+<div class="quote-text">
     <p>
         "Only with increased capacity can we expand and create a more inclusive program that attracts a great number of students to participate in physical and social activity. The Students' Association is committed to and focused on programming that results in our students taking person ownership for their health."
     </p>
+</div>
 </section>
 
 <section class="discover-entertainment">
+    <div entertainment-img>
+        <img src="mtm6201-midterm-master-files/images/entertainment.jpg" alt="Entertainment Picture" width="60%">
+    </div>
+    <div class="entertainment-text">
     <h1>
         Discover.
     </h1>
@@ -88,6 +118,7 @@
         at Algonquin College is endless. We currently have the Algonquin Commons Theater where we host a variety of events. Now with the coming of the ARC facility, not only will it be providing more space for the students to study, but it will also be bringing in more room for late-night entertainment.
     </p>
     <button class="learn-more">Learn More</button>
+</div>
 </section>
 </body>
 <footer>
@@ -97,11 +128,15 @@
 
     
 <div>
-    <img src="../midterm/mtm6201-midterm-master-files/icons/facebook.svg" alt="Facebook Logo">
-    <img src="../midterm/mtm6201-midterm-master-files/icons/instagram.svg" alt="Instagram Logo">
-    <img src="../midterm/mtm6201-midterm-master-files/icons/twitter.svg" alt="Twitter Logo">
-    <img src="../midterm/mtm6201-midterm-master-files/icons/youtube.svg" alt="Youtube Logo">
-</div>    
+    <img src="mtm6201-midterm-master-files/icons/facebook.svg" alt="Facebook Logo">
+    <img src="mtm6201-midterm-master-files/icons/instagram.svg" alt="Instagram Logo">
+    <img src="mtm6201-midterm-master-files/icons/twitter.svg" alt="Twitter Logo">
+    <img src="mtm6201-midterm-master-files/icons/youtube.svg" alt="Youtube Logo">
+</div>  
 
+<a href="index.html#home-header">
+    <input type="image" id="scroll to top" src="mtm6201-midterm-master-files/icons/arrow.svg" alt="Scroll to Top" placeholder="back to top">
+    <figcaption>back to top</figcaption>
+</a>
 </footer>
 </html>
