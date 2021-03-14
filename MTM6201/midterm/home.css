@@ -10,12 +10,12 @@
     text-align: center;
 }
 
+/* For this section, I used a grid because I felt that it would be the most helpful for the design in the mockup */
+
 .discover-arc {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     padding-bottom: 30px;
     padding-top: 30px;
     }
@@ -28,8 +28,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
         background-color: lightgrey;
         }
         
@@ -73,8 +71,6 @@ font-weight: bolder;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     color: white;
     }
     
@@ -105,8 +101,6 @@ font-weight: bolder;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     background-color: lightgrey;
     }
     
@@ -144,3 +138,4 @@ font-weight: bolder;
 .entertainment-text{
     padding-left: 25px;
 }
+
