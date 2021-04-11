@@ -24,6 +24,16 @@ img{
         .second-main-image { grid-area: 1 / 1 / 2 / 2; }
         .third-main-image { grid-area: 1 / 2 / 2 / 3; }
 
+        .fourth-fifth-images {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            padding-left: 15px;
+            }
+            
+            .fourth-main-image { grid-area: 1 / 1 / 2 / 2; }
+            .fifth-main-image { grid-area: 1 / 2 / 2 / 3; }
+
         .sixth-image {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
