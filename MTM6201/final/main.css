@@ -5,6 +5,15 @@ header{
     padding-top: 5px;
 }
 
+body{
+    background-color:deepskyblue;
+}
+
+.img-one-text{
+    padding-top: 35%;
+}
+
+
 footer{
     background-color: darkblue;
 }
