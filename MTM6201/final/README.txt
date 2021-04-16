@@ -1,0 +1,5 @@
+For my portfolio, I wanted to show off some of the work that I did from behind a camera throughout the year. I found that this was something that I didn't think I would enjoy but I found it was the most interesting part to learn and explore throughout the year. 
+
+An issue that I knew would come up with something like this was having images with different sized images would be to find a middle ground that would look universally well.  For something like this, I'm just making use of bootstrap grids and img-fluid tags to do the work for me and keep CSS to a minimum.
+
+Other than that, I wanted to make the website have a natural flow to it and a simple feeling to it. Keeping it simple with four photos and some text explaining some of my processes was the best way that I could think of doing this.
