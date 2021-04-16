@@ -1,12 +1,13 @@
 header{
     display: flex;
     justify-content: center;
-    background-color: rgb(53, 130, 247);
+    background-color: #465AB0;
     padding-top: 5px;
 }
 
 body{
-    background-color:deepskyblue;
+    background-color: #0B2659;
+    color: white;
 }
 
 .img-one-text{
