@@ -13,6 +13,9 @@ body{
     padding-top: 35%;
 }
 
+.img-thumbnail{
+    border: red;
+}
 
 footer{
     background-color: darkblue;
